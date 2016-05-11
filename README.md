@@ -1,5 +1,5 @@
-CentOS 64 快速安装
-=================
+**CentOS 64 快速安装
+```sh
 cd /tmp
 # 编译环境准备&安装依赖包
 yum install -y gcc automake autoconf libtool make build-essential autoconf libtool
@@ -21,7 +21,7 @@ chmod +x /etc/init.d/shadowsocks-libev
 vim /etc/shadowsocks-libev/config.json
 # 启动服务
 service shadowsocks-libev start
-
+```
 
 
 shadowsocks-libev
